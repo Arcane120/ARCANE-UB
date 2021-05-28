@@ -70,13 +70,28 @@ async def _(event):
         f"__**✦҈͜͡➳ Kong!__**\n★ {ms}\n★ __**My**__ __**Master**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
     )
 
+@borg.on(lightning_cmd(pattern="ping$"))
+async def _(event):
+    if event.fwd_from:
+        return
+    start = datetime.now()
+    event = await edit_or_reply(event, "__**(❛ ᑭσɳց ❜!__**")
+    end = datetime.now()
+    ms = (end - start).microseconds / 1000
+    await event.edit(
+        f"__**꧁ Pong! ꧂__**\n⚘ {ms}\n⚘ __**My**__ __**Master**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
+    )
+    
 
+    
 CMD_HELP.update(
     {
         "ping": "__**PLUGIN NAME :** King__\
     \n\n📌** CMD ★** `.pingy`\
     \n**USAGE   ★  **A kind of ping with extra animation\
     \n\n📌** CMD ★** `.king`\
-    \n**USAGE   ★  **Shows you the ping speed of server"
+    \n**USAGE   ★  **Shows you the ping speed of server\
+    \n\n📌** CMD ★** `.ping`\
+    \n**USAGE   ★  **Shows you the ping speed of server"  
     }
 )
