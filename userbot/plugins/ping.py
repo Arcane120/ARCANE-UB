@@ -71,6 +71,7 @@ async def _(event):
     )
 
 @borg.on(lightning_cmd(pattern="ping$"))
+@borg.on(sudo_cmd(pattern="ping$", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
