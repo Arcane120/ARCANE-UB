@@ -19,7 +19,7 @@ async def _(event):
     await event.edit("Restarting [███]...")
     await asyncio.sleep(2)
     await event.edit(
-        "Black Lightning restarted successfully. Wait for 2-3 minutes to complete all processes."
+        "Black Arcane restarted successfully. Wait for 2-3 minutes to complete all processes."
     )
     await borg.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)

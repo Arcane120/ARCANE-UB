@@ -18,11 +18,11 @@ async def hapy(event):
       c="Connecting to telegram servers 😎⚡ [/]"
       await asyncio.sleep(1)
       await event.edit(c) 
-      d="Conneced to telegram [✓] connecting to @LightningSupport[/]"
+      d="Conneced to telegram [✓] connecting to @ArcaneSupport[/]"
       await event.edit(d)
-      e="Connecting to @LightningSupport ✅ \n ■□□□□  \n [/]"
+      e="Connecting to @ArcaneSupport ✅ \n ■□□□□  \n [/]"
       await event.edit(e)
-      f="Connecting to @LightningSupport✅ \n □■□□□  \n [\]"
+      f="Connecting to @ArcaneSupport✅ \n □■□□□  \n [\]"
       await event.edit(f)
       await asyncio.sleep(1)
       await event.edit(e)

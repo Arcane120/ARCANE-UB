@@ -50,7 +50,7 @@ async def _(event):
                 REASON = arg[2]
             else:
                 FBAN = arg[1]
-                REASON = " #Superfban_Lightning_Userbot"
+                REASON = " #Superfban_Arcane_Userbot"
         else:
             FBAN = previous_message.sender_id
             REASON = event.text.split(" ", maxsplit=1)[1]
@@ -63,7 +63,7 @@ async def _(event):
             REASON = arg[2]
         else:
             FBAN = arg[1]
-            REASON = " #Superfban_Lightning_Userbot "
+            REASON = " #Superfban_Arcane_Userbot "
     try:
         int(FBAN)
 # Dear kanger if you remove id or username which is given below so this plugin will not work...
@@ -153,7 +153,7 @@ async def _(event):
         await bot.send_message(chat, f"/fban {FBAN} {REASON}")
         await asyncio.sleep(3)
     await event.edit(
-        f"Superfban completed, Affected **{len(fedList) - exCount}** feds.\n\n#Lightning_Userbot"
+        f"Superfban completed, Affected **{len(fedList) - exCount}** feds.\n\n#Arcane_Userbot"
     )
 
 
@@ -229,7 +229,7 @@ async def _(event):
         await asyncio.sleep(5)
         await bot.send_message(chat, f"/unfban {FBAN}")
         await asyncio.sleep(5)
-    await event.edit(f"Superfban cmpleted Affected {len(fedList)} Feds by {lightning}.\n\n #Lightning_userbot")
+    await event.edit(f"Superfban cmpleted Affected {len(fedList)} Feds by {lightning}.\n\n #Arcane_userbot")
 
 
 

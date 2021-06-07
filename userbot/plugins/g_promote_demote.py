@@ -106,7 +106,7 @@ async def gben(userbot):
     else:
         await dark.edit(f"**Please reply to a valid user...**")
     return await dark.edit(
-        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n by Black Lightning : {i} **"
+        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n by Black Arcane : {i} **"
     )
 @borg.on(admin_cmd(pattern="gdemote ?(.*)"))
 async def gben(userbot):
@@ -156,5 +156,5 @@ async def gben(userbot):
     else:
         await dark.edit(f"**Reply to a user you dumbo !!**")
     return await dark.edit(
-        f"**Successfully globally demoted [{user.first_name}](tg://user?id={user.id})\n by Black Lightning : {i} **"
+        f"**Successfully globally demoted [{user.first_name}](tg://user?id={user.id})\n by Black Arcane : {i} **"
     )

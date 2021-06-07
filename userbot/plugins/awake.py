@@ -18,7 +18,7 @@ DEFAULTUSER = (
 
 ALIVE_MESSAGE = Var.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-    ALIVE_MESSAGE = "**🔱Black Lightning IS Awake🔱 \n\n\n**"
+    ALIVE_MESSAGE = "**🔱Black Arcane IS Awake🔱 \n\n\n**"
     ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
     ALIVE_MESSAGE += f"`Telethon: TELETHON-15.0.0 \n\n`"
     ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"

@@ -167,7 +167,7 @@ pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightning_suppo
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Arcanet) 🔹 [📜License📜](https://github.com/KeinShin/Black-Arcane/blob/master/LICENSE)"
 
 
 @borg.on(lightning_cmd(outgoing=True, pattern="halive$"))
@@ -196,7 +196,7 @@ async def amireallyalive(calive):
         pm_caption = f"**{ALIVE_MSG}**\n\n"
         pm_caption += f"**{EMOJI} Database :** `{check_sgnirts}`\n"
         pm_caption += f"**{EMOJI} Telethon version :** `{version}\n`"
-        pm_caption += f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+        pm_caption += f"**{EMOJI} Arcane Userbot Version :** `{catversion}`\n"
         pm_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
         pm_caption += f"**{EMOJI} Uptime :** `{uptime}\n`"
         pm_caption += f"**{EMOJI} Master:** {DEFAULTUSER}\n"
@@ -210,7 +210,7 @@ async def amireallyalive(calive):
             f"**{ALIVE_MSG}**\n\n"
             f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version}\n`"
-            f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+            f"**{EMOJI} Arcane Userbot Version :** `{catversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {DEFAULTUSER}\n",
@@ -301,7 +301,7 @@ CMD_HELP.update(
         \n\n**Syntax : **`.halive `\
         \n**Function : **__ .hell Uerbot's Alive.__\
         \n\n**Syntax : **`.alive `\
-        \n**Function : **__ .Lightning Uerbot's Alive.__\
+        \n**Function : **__ .Arcane Uerbot's Alive.__\
         \n\n**Syntax : **`.awake `\
         \n**Function : **__ .Awake.__\
         \n\n\n**NOTE : All Credits To Thier Respective !!**"

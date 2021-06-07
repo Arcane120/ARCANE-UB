@@ -305,7 +305,7 @@ async def lightning_pugins_query_hndlr(lightning):
 ) # Thanks To Friday Userbot
 async def lightning_pugins_query_hndlr(lightning):
     if not lightning.query.user_id == bot.uid:
-        how = "Do you Really Think This is for you? \nThen Make your own Lightning Bot and don't poke your nose in mine"
+        how = "Do you Really Think This is for you? \nThen Make your own Arcane Bot and don't poke your nose in mine"
         await lightning.answer(how, cache_time=0, alert=True)
         return
     light_pulu_name = lightning.data_match.group(1).decode("UTF-8")
@@ -331,17 +331,17 @@ async def lightning_pugins_query_hndlr(lightning):
     if light_pulu_name in CMD_LIST:
                 lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
                 for i in CMD_LIST[light_pulu_name]:
-                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`\n**Ask at @Lightning_Support_Group"
+                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`\n**Ask at @Arcane_Support_Group"
                     lightning_help_strin += "\n    " + i
                     lightning_help_strin += "\n"
                 
     else:
-           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n\n**Ask at @Lightning_Support_Group"
+           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n\n**Ask at @Arcane_Support_Group"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @Lightning_support_Group** ".format(light_pulu_name)
-    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n\n**Ask at @Lightning_Support_Group"
+           lightning_is_best += "\n\n**In Case Any Problem @Arcane_support_Group** ".format(light_pulu_name)
+    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n\n**Ask at @Arcane_Support_Group"
     lightning_is_best = lightning_help_strin 
-    lightning_is_best += "\n\n**In Case Any Problem** @Lightning_Support_Group ".format(light_pulu_name)    
+    lightning_is_best += "\n\n**In Case Any Problem** @Arcane_Support_Group ".format(light_pulu_name)    
     if len(lightning_is_best) >= 4096:
           keinshin = "`Wait.( ͡🔥 ͜ʖ ͡🔥)`"
           await lightning.answer(keinshin, cache_time=0, alert=True)
@@ -590,7 +590,7 @@ async def ho(event):
     await event.answer("( ͡🔥 ͜ʖ ͡🔥)", cache_time=0, alert=False)
     # This Is Copy of Above Code. (C) @SpEcHiDe
     buttons = lightnings_menu_for_help(0, CMD_LIST, "helpme")
-    ho = f"""Black Lightning Is Here With Stunning Help !\n
+    ho = f"""Black Arcane Is Here With Stunning Help !\n
 In Case Any Problem [𝐁𝐥𝐚𝐜𝐤 𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠](https://t.me/lightning_support_group) \nTottal Plugs( ͡🔥 ͜ʖ ͡🔥): {len(CMD_LIST)}"""
     await event.edit(message=ho, buttons=buttons)
 

@@ -29,7 +29,7 @@ from userbot import CMD_HELP, ALIVE_NAME
 from userbot.utils import register
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Arcane"
 
 # ================= CONSTANT =================
 RENDISTR = [
@@ -660,7 +660,7 @@ HIT = [
 
 @register(outgoing=True, pattern=r"^.(\w+)say (.*)")
 async def univsaye(cowmsg):
-    """ For .cowsay module, Black Lightning wrapper for cow which says things. """
+    """ For .cowsay module, Black Arcane wrapper for cow which says things. """
     if not cowmsg.text[0].isalpha() and cowmsg.text[0] not in ("/", "#", "@", "!"):
         arg = cowmsg.pattern_match.group(1).lower()
         text = cowmsg.pattern_match.group(2)
@@ -1112,13 +1112,13 @@ async def faces(owo):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
-            "So You Wanna Deploy? Here It Is  [Lightning](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Lightning&template=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Lightning) ! Worth A Try 😌"
+            "So You Wanna Deploy? Here It Is  [Arcane](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Arcane&template=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Arcane) ! Worth A Try 😌"
         )
 
 
 @register(outgoing=True, pattern="^.react$")
 async def react_meme(react):
-    """ Make your Black Lightning react to everything. """
+    """ Make your Black Arcane react to everything. """
     if not react.text[0].isalpha() and react.text[0] not in ("/", "#", "@", "!"):
         await react.edit(random.choice(FACEREACTS))
 
@@ -1547,7 +1547,7 @@ CMD_HELP.update(
 \n\n.owo\
 \nUsage: UwU\
 \n\n.react\
-\nUsage: Make your Black Lightning react to everything.\
+\nUsage: Make your Black Arcane react to everything.\
 \n\n.slap\
 \nUsage: reply to slap them with random objects !!\
 \n\n.cry\

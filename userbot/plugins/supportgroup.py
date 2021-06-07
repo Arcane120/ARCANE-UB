@@ -10,7 +10,7 @@ import asyncio
 from userbot.utils import lightning_cmd
 
 
-@borg.on(lightning_cmd("Lightning"))
+@borg.on(lightning_cmd("Arcane"))
 async def _(event):
     if event.fwd_from:
         return

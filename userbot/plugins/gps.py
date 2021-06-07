@@ -19,7 +19,7 @@ async def gps(event):
 
     await event.edit("finding")
 
-    geolocator = Nominatim(user_agent="Lightning")
+    geolocator = Nominatim(user_agent="Arcane")
     geoloc = geolocator.geocode(input_str)
 
     if geoloc:

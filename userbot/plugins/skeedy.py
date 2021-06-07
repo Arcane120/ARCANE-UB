@@ -1,4 +1,4 @@
-# Created By @keinshin For Black Lightning
+# Created By @keinshin For Black Arcane
 # For Setting Remainder In TG
 
 from telethon import events

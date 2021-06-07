@@ -30,7 +30,7 @@ async def startgmute(event):
     if user_id in Config.WHITELIST_USERS:
         await event.reply(
             "**He has more immunity.**\nPerhaps I can't gmute him.\n\n"
-            "**Tip:** He iz a Developer Of Black Lightning."
+            "**Tip:** He iz a Developer Of Black Arcane."
         )
         return
     if user_id in Config.SUPPORT_USERS:
@@ -42,7 +42,7 @@ async def startgmute(event):
     if user_id in Config.DEVLOPERS:
         await event.reply(
             "**Abbe gandu tu jisse mute krr rha h.... vo tera baap h baap ko mute ni krte.**\nPerhaps I can't gmute him.\n\n"
-            "**Tip:** He iz The Developer Of Black Lightning ."
+            "**Tip:** He iz The Developer Of Black Arcane ."
         )
         return
     elif event.is_private:
