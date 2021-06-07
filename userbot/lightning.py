@@ -11,7 +11,7 @@ BOT =  = str(NAME) if NAME else "BLACK LIGHTNING"
 #op for keinshin
 
 Keinshin = "[KEINSHIN](https://t.me/keinshin)"
-OP = "[BLACK LIGHTNING](https://github.com/KeinShin/Black-Arcane)"
+OP = "[BLACK LIGHTNING](https://github.com/KeinShin/Arcane)"
 OKAY = "[SUPPORT GROUP](https://t.me/LIGHTINGSUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 

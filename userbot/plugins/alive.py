@@ -167,7 +167,7 @@ pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightning_suppo
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Arcanet) 🔹 [📜License📜](https://github.com/KeinShin/Black-Arcane/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Arcanet) 🔹 [📜License📜](https://github.com/KeinShin/Arcane/blob/master/LICENSE)"
 
 
 @borg.on(lightning_cmd(outgoing=True, pattern="halive$"))

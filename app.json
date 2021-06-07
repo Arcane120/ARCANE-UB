@@ -9,8 +9,8 @@
    "modular",
    "productivity"
   ],
-  "repository": "https://github.com/KeinShin/Black-Arcane",
-  "website": "https://github.com/KeinShin/Black-Arcane",
+  "repository": "https://github.com/KeinShin/Arcane",
+  "website": "https://github.com/KeinShin/Arcane",
   "success_url": "https://t.me/blacklightningot",
   "stack": "container",
   "env": {

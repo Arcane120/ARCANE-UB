@@ -78,7 +78,7 @@ class Var(object):
     SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
     ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Arcane"
+        "UPSTREAM_REPO", "https://github.com/KeinShin/Arcane"
     )
     ALIVE_PIC = os.environ.get(
         "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"

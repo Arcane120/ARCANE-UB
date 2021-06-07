@@ -1,4 +1,4 @@
-#Official plugin for Black-Arcane 
+#Official plugin for Arcane 
 #Made with help of @xditya
 #Copyright (C) 2021 Raiden-devs@Github.com
 from var import Var

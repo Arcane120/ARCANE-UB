@@ -1112,7 +1112,7 @@ async def faces(owo):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
-            "So You Wanna Deploy? Here It Is  [Arcane](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Arcane&template=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Arcane) ! Worth A Try 😌"
+            "So You Wanna Deploy? Here It Is  [Arcane](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKeinShin%2FArcane&template=https%3A%2F%2Fgithub.com%2FKeinShin%2FArcane) ! Worth A Try 😌"
         )
 
 
