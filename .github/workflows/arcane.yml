@@ -18,7 +18,7 @@ jobs:
 
         with:
 
-          find: "Lightning"
+          find: "Black Lightning"
 
 
           replace: "Arcane"
