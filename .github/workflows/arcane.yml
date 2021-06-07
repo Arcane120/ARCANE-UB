@@ -18,10 +18,10 @@ jobs:
 
         with:
 
-          find: print("Lightning has been deployed! ")
+          find: "Lightning"
 
 
-          replace: print("ARCANE has been deployed! ")
+          replace: "Arcane"
 
 
       - name: Create Pull Request
